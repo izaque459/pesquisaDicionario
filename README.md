@@ -1,0 +1,2 @@
+# pesquisaDicionario
+Pesquisa em dicionário 
