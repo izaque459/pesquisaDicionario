@@ -1,5 +1,5 @@
 
-
+namespace ConsolePesquisa.Classes;
 
 public class TipoDicionario
 {
