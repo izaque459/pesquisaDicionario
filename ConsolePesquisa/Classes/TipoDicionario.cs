@@ -11,4 +11,17 @@ public class TipoDicionario
     {
         n = NumReg.Minimo;
     }
+
+    public void Insere(Registro reg)
+    {
+        if (n == NumReg.Maximo)
+        {
+            Console.WriteLine("Erro: Dicionario cheio");
+        }
+        else
+        {
+            n++;
+            Item[n] = reg;
+        }
+    }
 }
