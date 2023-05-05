@@ -1,6 +1,6 @@
 namespace ConsolePesquisa.Classes
 {
-    public class TipoPesquisa
+    public class static TipoPesquisa
     {
         
     }
