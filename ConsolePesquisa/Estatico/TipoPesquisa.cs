@@ -7,7 +7,7 @@ namespace ConsolePesquisa.Estatico
             for (int i = 1; i <= dicionario.Tamanho(); i++)
             {
                 passosLinear++;
-                if (dicionario.Elementos(i) == chave)
+                if (dicionario.Elemento(i) == chave)
                 {
                     return i;
                 }
