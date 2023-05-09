@@ -1,7 +1,17 @@
 namespace ConsolePesquisa.Estatico
-{
-    public class static TipoPesquisa
-    {
-        
+
+    public static class TipoPesquisa{
+
+        public static int Linear(out TipoDicionario dicionario, out passosLinear, out TipoChave chave ){
+            passosLinear = 0;
+            for (int i = 1; i < dicionario.Tamanho(); i++)
+            {
+                passosLinear++;
+                if (dicionario.Elementos(i) == chave)
+                {
+                    return i;
+                }
+            }
+            return -1;
+            }
     }
-}
