@@ -24,4 +24,14 @@ public class TipoDicionario
             Item[n] = reg;
         }
     }
+    public int Tamanho(){
+        return n;
+    }
+
+    public Chave Elemento(int i){
+        if(i>NumReg.Minimo)&&(i<=NumReg.Maximo)
+                return Registro[i].Chave;
+        else
+            return Registro[0].Chave;
+    }
 }
