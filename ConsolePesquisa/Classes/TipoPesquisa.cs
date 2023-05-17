@@ -1,4 +1,4 @@
-namespace ConsolePesquisa.Estatico
+namespace ConsolePesquisa.Classes
 {
     public class static TipoPesquisa
     {
