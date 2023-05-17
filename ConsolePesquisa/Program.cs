@@ -14,8 +14,12 @@ namespace ConsolePesquisa
             }
 
 
-            int[] vetorOrdenado = vetorNaoOrdenado;
+            int[] vetorOrdenado = new int[1000];
+            for (int i = 0; i < vetorOrdenado.Length; i++)
+            {
+               vetorOrdenado[i] = i + 1;
+            }
 
-            Array.sort(vetorOrdenado);
+        }
     }
 }
