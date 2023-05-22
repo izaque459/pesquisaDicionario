@@ -35,7 +35,18 @@ namespace ConsolePesquisa
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            if (args.Length == 0)
+            {
+                Console.WriteLine("Nenhum argumento foi fornecido.");
+            }
+            else
+            {
+                Console.WriteLine("Argumentos fornecidos:");
+                foreach (string argumento in args)
+                {
+                    Console.WriteLine(argumento);
+                }
+            }
         }
     }
 }
