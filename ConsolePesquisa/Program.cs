@@ -37,7 +37,7 @@ namespace ConsolePesquisa
         {
             if (args.Length == 0)
             {
-                Console.WriteLine("Nenhum argumento foi fornecido.");
+                Console.WriteLine("Nenhum argumento foi fornecido. Pesquisa não realizada.");
             }
             else
             {
@@ -46,6 +46,8 @@ namespace ConsolePesquisa
                 {
                     Console.WriteLine(argumento);
                 }
+
+                int passosLinear, passosBinaria;
             }
         }
     }
