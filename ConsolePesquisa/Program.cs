@@ -44,9 +44,9 @@ namespace ConsolePesquisa
 
             // Adicionar elementos ao dicionário
             Insere(ref dicionario, 0, "abc");
-            Insere(ref dicionario, 1, "def");
+            Insere(ref dicionario, 1, "jkl");
             Insere(ref dicionario, 2, "ghi");
-            Insere(ref dicionario, 3, "jkl");
+            Insere(ref dicionario, 3, "def");
 
 
 
